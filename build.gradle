@@ -15,7 +15,7 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
     implementation 'com.squareup.retrofit:retrofit:2.0.0-beta2'
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.7'
-    implementation 'com.thegoate:restassured:0.15.8.202204130045'
+    implementation 'io.rest-assured:rest-assured:5.0.1'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
