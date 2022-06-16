@@ -39,7 +39,7 @@ public class ApacheClient {
         return myArrayList;
     }
 
-    public static HttpResponse createBoard(String key, String token, String boardName) throws Exception { // work
+    public static HttpResponse createBoard(String key, String token, String boardName) throws Exception {
         HttpPost createBoard = new HttpPost("https://api.trello.com/1/boards/?key=" + key + "&token=" + token + "&name=" + boardName);
         HttpResponse response = httpClient.execute(createBoard);
         return response;

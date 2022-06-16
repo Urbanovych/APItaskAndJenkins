@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RetrofitOKhttpTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-16T12:11:49" hostname="C9332" time="2.992">
+  <properties/>
+  <testcase name="retrofitAllStepsTest()" classname="RetrofitOKhttpTest" time="2.992"/>
+  <system-out><![CDATA[Response{protocol=http/1.1, code=200, message=OK, url=https://api.trello.com/1/boards/?key=1d2ab2ddc3eb8d104f351c62589ed47b&token=46ffe16ee4e96f24a1ee49fd525413256bc10915038b322297e2dc524e701260&name=Retrofit}
+Response{protocol=http/1.1, code=200, message=OK, url=https://api.trello.com/1/lists?name=DONE&idBoard=62ab1e05b7bfae795936dbc3&key=1d2ab2ddc3eb8d104f351c62589ed47b&token=46ffe16ee4e96f24a1ee49fd525413256bc10915038b322297e2dc524e701260}
+Response{protocol=http/1.1, code=200, message=OK, url=https://api.trello.com/1/lists?name=TODO&idBoard=62ab1e05b7bfae795936dbc3&key=1d2ab2ddc3eb8d104f351c62589ed47b&token=46ffe16ee4e96f24a1ee49fd525413256bc10915038b322297e2dc524e701260}
+Response{protocol=http/1.1, code=200, message=OK, url=https://api.trello.com/1/cards?name=MyCard&idList=62ab1e0631a93a8af843a832&key=1d2ab2ddc3eb8d104f351c62589ed47b&token=46ffe16ee4e96f24a1ee49fd525413256bc10915038b322297e2dc524e701260}
+Response{protocol=http/1.1, code=200, message=OK, url=https://api.trello.com/1/cards/62ab1e07c4399f1018840b26?idList=62ab1e06d17280098a206c2f&key=1d2ab2ddc3eb8d104f351c62589ed47b&token=46ffe16ee4e96f24a1ee49fd525413256bc10915038b322297e2dc524e701260}
+Response{protocol=http/1.1, code=200, message=OK, url=https://api.trello.com/1/boards/62ab1e05b7bfae795936dbc3/?key=1d2ab2ddc3eb8d104f351c62589ed47b&token=46ffe16ee4e96f24a1ee49fd525413256bc10915038b322297e2dc524e701260}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -41,8 +41,6 @@ public class RestAssured {
         return response;
     }
 
-    // https://api.trello.com/1/boards/VIwv0v0O/memberships?key=1d2ab2ddc3eb8d104f351c62589ed47b&token=46ffe16ee4e96f24a1ee49fd525413256bc10915038b322297e2dc524e701260&id=629e2b4283e4eb11a9c9e3bf
-
     public static ValidatableResponse createList(String key, String token, String idBoard, String listName) {
         io.restassured.RestAssured.baseURI = "https://api.trello.com";
         ValidatableResponse response = given().contentType(ContentType.JSON).log().all()
@@ -68,7 +66,6 @@ public class RestAssured {
     }
 
     public static void moveCard(String key, String token, String idCard, String idList) {
-        // HttpPut moveCard = new HttpPut("https://api.trello.com/1/cards/" + idCard + "?idList=" + idList + "&key=" + key + "&token=" + token);
         io.restassured.RestAssured.baseURI = "https://api.trello.com";
         ValidatableResponse response = given().contentType(ContentType.JSON).log().all()
                 .queryParam("idList", idList)
